@@ -1,0 +1,339 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.headline {
+    /* Application For Permission To Date My Daughter */
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.8vmin;
+}
+
+.survey {
+    /* every box: personal details, easay section, worldview ect. */
+    margin-top: 2rem;
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+}
+
+
+.personal_details {
+    /* personal detals box */
+    background: #EED3D3;
+    border-radius: 11px;
+}
+
+.personal_details h1 {
+    /* settings for all the h1 tags. Full name, adress email ect. */
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6vmin;
+    line-height: 28px;
+    margin-bottom: 4vmin;
+    margin-top: 2vmin;
+}
+
+.headline h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8vmin;
+    line-height: 44px;
+    text-align: center;
+    padding-top: 5.5vmin;
+    padding-bottom: 5.5vmin;
+    margin-bottom: 7vmin;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.fullname, .adress, .email, .phone_number, .gender, .proposal_date {
+    text-align: center;
+    padding-bottom: 3vw;
+}
+
+.personal_details input, select {
+    /* style of all the input boxes */
+    margin-bottom: 1rem;
+    width: 60vmin;
+    height: 5vmin;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 3px 40px rgba(0, 0, 0, 0.2);
+}
+
+.personal_details input:focus {
+    outline: none;
+}
+
+.personal_details input::placeholder {
+    outline: none;
+    color: rgb(148, 148, 148);
+    font-size: 3vmin;
+}
+
+.personal_details input, textarea {
+    /* color and font when typing into input boxes */
+    color: black;
+    font-size: 3vmin;
+    padding-left: 1.5vmin;
+}
+
+  .gender select {
+    /* gender selection (male, female, attack helicopter) */
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    font-size: 3vmin;
+    outline: none;
+    height: 5.5vmin;
+    padding-left: 1vmin;
+  }
+
+.gender select option[value="Helicopter"] {
+    color:rgb(148, 148, 148);
+}
+
+.proposal_date input {
+    /* date of the proposal */
+    font-family: "Roboto", sans-serif;
+    font-size: 3vmin;
+}
+
+
+
+.checkAllApply {
+    background: #F0C4C4;
+    border-radius: 11px;
+}
+
+.checkbox input {
+    border-radius: 11px;
+    opacity: 0;
+}
+
+.checkbox ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox li {
+    display: flex;
+}
+
+.checkmark {
+    display: inline-block;
+    width: 8vmin;
+    height: 8vmin;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 3vmin;
+    margin-bottom: 3vmin;
+    transition: background-color 0.4s;
+}
+
+#tatoos:checked + .checkmark {
+    background-color: #23b072;
+}
+
+#age:checked + .checkmark {
+    background-color: #23b072;
+}
+
+#van:checked + .checkmark {
+    background-color: #23b072;
+}
+
+#job:checked + .checkmark {
+    background-color: #23b072;
+}
+
+#parents:checked + .checkmark {
+    background-color: #23b072;
+}
+
+#location:checked + .checkmark {
+    background-color: #23b072;
+}
+
+.checkbox h1 {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.6vmin;
+    margin-top: 1.6vmin;
+}
+
+
+
+.worldview {
+    background: #EED3D3;
+    border-radius: 11px;
+}
+
+.political li {
+    text-align: center;
+    margin-bottom: 3vmin;
+}
+
+.political select {
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    font-size: 3vmin;
+    outline: none;
+    height: 5.5vmin;
+    padding-left: 1vmin;
+    margin-bottom: 7vmin;
+}
+
+.political h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5vmin;
+    margin-bottom: 4vmin;
+    margin-top: 2vmin;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.essay {
+    background: #F0C4C4;
+    border-radius: 11px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.textwrapper {
+    font-size: 2vmin;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text {
+    margin-bottom: 10vmin;
+}
+
+.textwrapper h1 {
+    font-size: 4vmin;
+    font-weight: 500;
+}
+
+
+textarea {
+    margin: 0;
+    padding: 1vmin;
+    width: 70vmin;
+    height: 30vmin;
+    text-align: left;
+    font-size: 3vmin;
+}
+
+.documentsWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.documentsWrapper h1 {
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 500;
+    font-size: 6vmin;
+}
+
+.documentsWrapper h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 4vmin;
+    margin-top: 1vmin;
+}
+
+.documentsWrapper li {
+    display: inline-block;
+    text-align: center;
+    background-color: #EED3D3;
+    width: 60vmin;
+    margin: 0;
+    margin-bottom: 5vmin;
+    border-radius: 11px;
+}
+
+.attachWrapper {
+    display: table;
+    margin: 0 auto;
+    background-color: white;
+    width: 40vmin;
+    height: 5vmin;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    border-radius: 20px;
+    box-shadow: 0 3px 60px rgba(0, 0, 0, 0.2);
+}
+
+.attachWrapper label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vmin;
+    margin-top: 0.7vmin;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-top: 2rem;
+    background: #EED3D3;
+    border-radius: 11px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8vmin;
+    line-height: 44px;
+    text-align: center;
+    padding-top: 5.5vmin;
+    padding-bottom: 5.5vmin;
+    margin-bottom: 7vmin;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+button:hover {
+    color:#4d4d4d;
+    background-color: #f3dbdb;
+}
+
+button:active {
+    outline: none;
+    background-color: #f0c4c4;
+    font-size: 9vmin;
+    transition: font-size 0.07s;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media (min-width: 1200px) {
+    .survey {
+        margin: auto;
+        width: 60%;
+    }
+    
+}
