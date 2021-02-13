@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* global */
+
+body {
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+
+    width: 40%;
+}
+
+a, a:visited, a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+a {
+    transition: 0.1s;
+}
+
+li {
+    margin-bottom: 15vmin;
+}
+
+/* headline */
+
+.headline {
+    margin-top: 15vmin;
+    margin-bottom: 15vmin;
+}
+
+.headline h1, .headline h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.headline h1 {
+    font-weight: 600;
+    font-size: 2vmin;
+    letter-spacing: 1.3vmin;
+
+    margin-bottom: 1.5vmin;
+}
+
+.headline h2 {
+    font-size: 4vmin;
+    font-weight: 600;
+}
+
+.headline h1 a:hover{
+    font-size: 3vmin;
+    transition: 1;
+}
+
+.headline h2 a:hover{
+    font-size: 5vmin;
+    transition: 1;
+}
+
+/* pics */
+
+img {
+    width: 100%;
+}
