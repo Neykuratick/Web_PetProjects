@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* global */
+
+body {
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited, a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.myheadline {
+    font-weight: 400;
+    font-size: 7vmin;
+
+    padding: 0;
+    margin: 0;
+
+    margin-bottom: 2vmin;
+}
+
+.mine {
+    font-weight: 600;
+}
+
+/* headline */
+
+.headline h1 {
+    font-weight: 300;
+    font-size: 14vmin;
+    
+    padding: 0;
+    margin: 0;
+}
+
+.headline h2 {
+    font-weight: 300;
+    font-size: 7vmin;
+    padding: 0;
+    margin: 0;
+}
+
+/* Мой Фотошоп */
+
+.photoshop {
+    margin-top: 30vmin;
+}
+
+.photos_pictures {
+    padding: 0;
+    margin: 0;
+
+    width: 60%;
+}
+
+/* Мои порисульки */
+
+.drawings {
+    margin-top: 30vmin;
+}
+
+.draws_pictures {
+    /* 
+        responsive img design:
+
+        1. Get the width and the height of the img (1920x1080)
+        2. Divide height(1080) / width(1920) = 0.5625 = 56.25%
+        3. width: 100%
+        4. instead of using height, use padding-top.
+        5. padding-top: 56.25%.
+
+        https://www.youtube.com/watch?v=VF5kD6QEEag
+    */
+    
+    padding: 0;
+    margin: 0;
+
+    width: 60%;
+}
+
+/* Мои презентации */
+
+.presentations {
+    margin-top: 30vmin;
+}
+
+.presentations ul {
+    margin: auto;
+    width: 50%;
+}
+
+
+.presentations li {
+    text-align: left;
+    margin-bottom: 3vmin;
+
+    font-size: 4vmin;
+}
+
+.presentations a {
+    transition: 0.1s;
+}
+
+.presentations a:hover {
+    font-size: 5vmin;
+    transition: 0.1s;
+}
+
+/* Моя гафрка */
+
+.graphics {
+    margin-top: 30vmin;
+    margin-bottom: 30vmin;
+}
+
+.graphics ul {
+    margin: auto;
+    width: 50%;
+}
+
+.graphics li {
+    text-align: left;
+    margin-bottom: 3vmin;
+
+    font-size: 4vmin;
+}
+
+.graphics a {
+    transition: 0.1s;
+}
+
+.graphics a:hover {
+    font-size: 5vmin;
+    transition: 0.1s;
+}
+
+/* responsive */
+
+
+@media (max-width: 400px) {
+
+    .draws_pictures {
+        width: 90%;
+    }
+
+    .photos_pictures {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 800px) and (min-width: 400px) {
+
+    .draws_pictures {
+        width: 90%;
+    }
+
+    .photos_pictures {
+        width: 90%;
+    }
+
+    .graphics ul {
+        margin-left: 35%;
+    }
+
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+
+    .draws_pictures {
+        width: 90%;
+    }
+
+    .photos_pictures {
+        width: 90%;
+    }
+
+    .graphics ul {
+        margin-left: 32%;
+    }
+
+}
+
+@media (max-width: 1300px) and (min-width: 1000px) {
+
+    .draws_pictures {
+        width: 70%;
+    }
+
+    .photos_pictures {
+        width: 70%;
+    }
+
+}
